@@ -2,7 +2,7 @@
 //  Post.swift
 //  lab-insta-parse
 //
-//  Created by Charlie Victoria on 09/21/24.
+//  Created by  Victoria Mckinnie on 09/21/24.
 //
 
 import ParseSwift

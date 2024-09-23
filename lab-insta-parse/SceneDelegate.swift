@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  lab-insta-parse
 //
-//  Created by Charlie Hieger on 10/29/22.
+//  Created by Victoria Mckinnie on 09/20/24.
 //
 
 import UIKit
