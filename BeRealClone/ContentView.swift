@@ -1,26 +1,20 @@
-//
-//  ContentView.swift
-//  BeRealClone
-//
-//  Created by user on 11/14/24.
-//
-
 import SwiftUI
+import ParseSwift
 
 struct ContentView: View {
+    @State private var isLoggedIn = User.current != nil
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            if isLoggedIn {
+                HomeView(isLoggedIn: $isLoggedIn)
+            } else {
+                LoginView(isLoggedIn: $isLoggedIn)
+            }
         }
-        .padding()
+        .onAppear {
+            isLoggedIn = User.current != nil
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

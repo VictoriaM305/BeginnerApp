@@ -11,6 +11,16 @@
 		CE9F19D82CE6FAB400C7C6BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19D72CE6FAB400C7C6BE /* ContentView.swift */; };
 		CE9F19DA2CE6FAB900C7C6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9F19D92CE6FAB900C7C6BE /* Assets.xcassets */; };
 		CE9F19DD2CE6FAB900C7C6BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9F19DC2CE6FAB900C7C6BE /* Preview Assets.xcassets */; };
+		CE9F19E52CE6FB6B00C7C6BE /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE9F19E42CE6FB6B00C7C6BE /* ParseSwift */; };
+		CE9F19E72CE6FD4A00C7C6BE /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19E62CE6FD4A00C7C6BE /* SignupView.swift */; };
+		CE9F19E92CE6FD6B00C7C6BE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19E82CE6FD6B00C7C6BE /* LoginView.swift */; };
+		CE9F19EB2CE6FD9900C7C6BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19EA2CE6FD9900C7C6BE /* HomeView.swift */; };
+		CE9F19ED2CE6FE6900C7C6BE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19EC2CE6FE6900C7C6BE /* User.swift */; };
+		CE9F19EF2CE896E100C7C6BE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19EE2CE896E100C7C6BE /* PostView.swift */; };
+		CE9F19F12CE8986100C7C6BE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19F02CE8986100C7C6BE /* Post.swift */; };
+		CE9F19F32CE898C900C7C6BE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19F22CE898C900C7C6BE /* ImagePicker.swift */; };
+		CE9F19F52CE8A58D00C7C6BE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19F42CE8A58D00C7C6BE /* FeedView.swift */; };
+		CE9F19F72CE8AA1500C7C6BE /* PHPickerViewController.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F19F62CE8AA1500C7C6BE /* PHPickerViewController.View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,15 @@
 		CE9F19D72CE6FAB400C7C6BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE9F19D92CE6FAB900C7C6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9F19DC2CE6FAB900C7C6BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE9F19E62CE6FD4A00C7C6BE /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		CE9F19E82CE6FD6B00C7C6BE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE9F19EA2CE6FD9900C7C6BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE9F19EC2CE6FE6900C7C6BE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE9F19EE2CE896E100C7C6BE /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		CE9F19F02CE8986100C7C6BE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CE9F19F22CE898C900C7C6BE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CE9F19F42CE8A58D00C7C6BE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CE9F19F62CE8AA1500C7C6BE /* PHPickerViewController.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9F19E52CE6FB6B00C7C6BE /* ParseSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +72,18 @@
 			isa = PBXGroup;
 			children = (
 				CE9F19D52CE6FAB400C7C6BE /* BeRealCloneApp.swift */,
+				CE9F19EE2CE896E100C7C6BE /* PostView.swift */,
+				CE9F19F42CE8A58D00C7C6BE /* FeedView.swift */,
+				CE9F19F02CE8986100C7C6BE /* Post.swift */,
+				CE9F19F22CE898C900C7C6BE /* ImagePicker.swift */,
+				CE9F19E62CE6FD4A00C7C6BE /* SignupView.swift */,
+				CE9F19F62CE8AA1500C7C6BE /* PHPickerViewController.View.swift */,
+				CE9F19E82CE6FD6B00C7C6BE /* LoginView.swift */,
 				CE9F19D72CE6FAB400C7C6BE /* ContentView.swift */,
 				CE9F19D92CE6FAB900C7C6BE /* Assets.xcassets */,
 				CE9F19DB2CE6FAB900C7C6BE /* Preview Content */,
+				CE9F19EA2CE6FD9900C7C6BE /* HomeView.swift */,
+				CE9F19EC2CE6FE6900C7C6BE /* User.swift */,
 			);
 			path = BeRealClone;
 			sourceTree = "<group>";
@@ -83,6 +112,9 @@
 			dependencies = (
 			);
 			name = BeRealClone;
+			packageProductDependencies = (
+				CE9F19E42CE6FB6B00C7C6BE /* ParseSwift */,
+			);
 			productName = BeRealClone;
 			productReference = CE9F19D22CE6FAB400C7C6BE /* BeRealClone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,9 @@
 				Base,
 			);
 			mainGroup = CE9F19C92CE6FAB400C7C6BE;
+			packageReferences = (
+				CE9F19E32CE6FB6B00C7C6BE /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			productRefGroup = CE9F19D32CE6FAB400C7C6BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9F19F72CE8AA1500C7C6BE /* PHPickerViewController.View.swift in Sources */,
+				CE9F19F52CE8A58D00C7C6BE /* FeedView.swift in Sources */,
+				CE9F19EF2CE896E100C7C6BE /* PostView.swift in Sources */,
+				CE9F19E72CE6FD4A00C7C6BE /* SignupView.swift in Sources */,
 				CE9F19D82CE6FAB400C7C6BE /* ContentView.swift in Sources */,
+				CE9F19F32CE898C900C7C6BE /* ImagePicker.swift in Sources */,
+				CE9F19F12CE8986100C7C6BE /* Post.swift in Sources */,
+				CE9F19ED2CE6FE6900C7C6BE /* User.swift in Sources */,
+				CE9F19E92CE6FD6B00C7C6BE /* LoginView.swift in Sources */,
+				CE9F19EB2CE6FD9900C7C6BE /* HomeView.swift in Sources */,
 				CE9F19D62CE6FAB400C7C6BE /* BeRealCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE9F19E32CE6FB6B00C7C6BE /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE9F19E42CE6FB6B00C7C6BE /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE9F19E32CE6FB6B00C7C6BE /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE9F19CA2CE6FAB400C7C6BE /* Project object */;
 }
